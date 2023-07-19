@@ -22,9 +22,9 @@ server_host = 'localhost'
 server_port = 12345
 
 # 테스트할 상품 정보
-product_name = "상품명"
-desired_price = "10000"
-product_link = "https://example.com/product"
+product_name = "Hanwoo"
+desired_price = "12000"
+product_link = "https://www.coupang.com/vp/products/1267767150?itemId=2271396043&vendorItemId=70268609273&pickType=COU_PICK&sourceType=CATEGORY&categoryId=194176&isAddedCart="
 
 # 서버에 상품 정보 전송
 send_product_info(server_host, server_port, product_name, desired_price, product_link)
